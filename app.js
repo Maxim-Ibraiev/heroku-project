@@ -1,4 +1,4 @@
-const port = 4444;
+const PORT = process.env.PORT || 4444;
 const express = require("express");
 const app = express();
 const handlebars = require("express-handlebars");
@@ -34,6 +34,6 @@ app.get("/product/:productId", (req, res) => {
   res.render("product", { product });
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`App serer is running 4444`);
 });
