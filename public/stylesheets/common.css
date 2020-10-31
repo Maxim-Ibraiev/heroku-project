@@ -5,8 +5,99 @@ body {
   background-color: #fff;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* 
+Header 
+*/
+
+.header {
+  display: flex;
+  background-color: #2a2a2a;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: inline-flex;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.header__icon {
+  padding: 12px 15px;
+}
+
+.logo {
+  font-family: Regular, sans-serif;
+  color: #fff;
+}
+
+.header__menu {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header__menu-button {
+  padding: 15px 18px;
+  border: none;
+  background-color: none;
+}
+
+/* 
+Section 1 
+*/
+
+.hero {
+  position: relative;
+}
+
+.hero__block {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+.hero__font {
+  text-align: center;
+
+  color: #fff;
+}
+
+.hero__button {
+  padding: 10px;
+
+  font-family: Regular, sans-serif;
+
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
 }

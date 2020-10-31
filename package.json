@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js", 
+    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
+    "material-design-icons": "^3.0.1",
     "nodemon": "^2.0.6"
   }
 }

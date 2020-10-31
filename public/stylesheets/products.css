@@ -1,5 +1,4 @@
-/* Компонент section */
-.section {
+Компонент section .section {
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: #3f51b5;
@@ -79,16 +78,6 @@
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-}
-
-.button__icon {
-  display: inline-flex;
-  width: 20px;
-  height: 20px;
-  background-image: url("https://www.flaticon.com/svg/static/icons/svg/891/891462.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .button__icon--start {
